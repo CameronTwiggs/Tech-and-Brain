@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(49,71,110);
+}
+#main{
+    text-align:center;
+    color:white;
+    margin-bottom:2px;
+}
+#intro
+{
+    text-align: center;
+    color:rgb(147,161,186);
+}
+#second{
+    text-align:center;
+    margin-bottom:0px;
+    color:white;
+}
+#third{
+    text-align:center;
+    margin-bottom:2px;
+    color:white;
+}
+.box1{
+    background-color:rgb(49,71,110);
+    color:rgb(147,161,186);
+    width:200px;
+    border:3px solid black;
+    padding:30px;
+    display:block;
+    float:left;
+    margin-top: 100px;
+    margin-left:300px;
+    text-align:center;
+    padding-top:10px;
+}
+.box2{
+    background-color:rgb(49,71,110);
+    color:rgb(147,161,186);
+    width:200px;
+    border:3px solid black;
+    padding:30px;
+    display:block;
+    float: right;
+    margin-top: 100px;
+    margin-right:300px;
+    text-align:center;
+    padding-top:10px;
+}
+#frogpo{
+    color:rgb(147,161,186);
+}
+#frogno{
+    color:rgb(147,161,186);
+}
+#line{
+    border:1px solid black;
+}
+#mainline{
+    border:1px solid black;
+}
