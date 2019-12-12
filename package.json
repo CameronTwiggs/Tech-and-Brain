@@ -1,0 +1,22 @@
+{
+  "name": "tech-and-brain",
+  "version": "1.0.0",
+  "description": "Nerds : Cameron, Santiago, Eric",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronTwiggs/Tech-and-Brain.git"
+  },
+  "author": "Cameron Twiggs <cameron.020617@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CameronTwiggs/Tech-and-Brain/issues"
+  },
+  "homepage": "https://github.com/CameronTwiggs/Tech-and-Brain#readme",
+  "dependencies": {
+    "particlesjs": "^2.2.3"
+  }
+}
