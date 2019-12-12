@@ -59,3 +59,10 @@ body{
 #mainline{
     border:1px solid black;
 }
+
+#particles-js {
+    height: 500px;
+    width: 500px;
+    border: solid black 1px;
+    background: firebrick;
+}
