@@ -6,10 +6,10 @@ body{
     color:white;
     margin-bottom:2px;
 }
-#intro
-{
+#intro{
     text-align: center;
     color:rgb(147,161,186);
+    margin-bottom:2px;
 }
 #second{
     text-align:center;
@@ -21,16 +21,20 @@ body{
     margin-bottom:2px;
     color:white;
 }
+.body_align{
+    margin:0 auto;
+    width:87%;
+}
 .box1{
     background-color:rgb(49,71,110);
     color:rgb(147,161,186);
     width:200px;
     border:3px solid black;
-    padding:30px;
+    padding:50px;
     display:block;
     float:left;
-    margin-top: 100px;
-    margin-left:300px;
+    margin-top:100px;
+    margin-left:200px;
     text-align:center;
     padding-top:10px;
 }
@@ -39,23 +43,56 @@ body{
     color:rgb(147,161,186);
     width:200px;
     border:3px solid black;
-    padding:30px;
+    padding:50px;
     display:block;
-    float: right;
+    float:right;
     margin-top: 100px;
-    margin-right:300px;
+    margin-right:200px;
     text-align:center;
     padding-top:10px;
 }
-#frogpo{
-    color:rgb(147,161,186);
+.list_info{
+    color:rgb(147,161,186)
 }
-#frogno{
-    color:rgb(147,161,186);
-}
-#line{
+.line{
     border:1px solid black;
 }
-#mainline{
-    border:1px solid black;
+#navbar{
+    margin:0 auto;
 }
+header::after{
+    content:"";
+    display: table;
+    clear: both;
+  }
+  
+nav{
+    float:left;
+  }
+  
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+nav li{
+    display:inline-block;
+    list-style:none;
+    padding-top: 10px;
+    margin-left:280px;
+    margin-top:5px;
+    margin-bottom:10px;
+ }
+  
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+nav a:hover{
+    color: #a6bce3;
+  }
+  
