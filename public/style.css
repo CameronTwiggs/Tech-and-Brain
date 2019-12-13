@@ -1,6 +1,6 @@
-* {
+/* * {
     border: black solid 1px;
-}
+} */
 
 body,html {
     height: 100%;
@@ -62,4 +62,12 @@ body{
 }
 .line{
     border:1px solid black;
+}
+nav li.navbuttons:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    color:black;
+}
+nav a:hover{
+    color:black;
 }
