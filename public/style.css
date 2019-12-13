@@ -56,43 +56,10 @@ body{
     float: right;
     width:80%;
 }
-.box1{
-    background-color:rgb(49,71,110);
-    color:rgb(147,161,186);
-    width:200px;
-    border:3px solid black;
-    padding:50px;
-    display:block;
-    float:left;
-    margin-top:100px;
-    margin-left:200px;
-    text-align:center;
-    padding-top:10px;
-}
-.box2{
-    background-color:rgb(49,71,110);
-    color:rgb(147,161,186);
-    width:200px;
-    border:3px solid black;
-    padding:50px;
-    display:block;
-    float:right;
-    margin-top: 100px;
-    margin-right:200px;
-    text-align:center;
-    padding-top:10px;
-}
+
 .list_info{
     color:rgb(147,161,186)
 }
 .line{
     border:1px solid black;
 }
-
-header::after{
-    content:"";
-    display: table;
-    clear: both;
-  }
-  
-  
