@@ -1,11 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+
+ *{
+     font-family: Arial, Helvetica, sans-serif;
+ }
 
 body,html {
-    width: 100%;
+    width: 95%;
     padding: 0;
-    margin: 0;
-    border: blue solid 1px;
-    
+    margin: auto;
 }
+
 
 body{
     background-color:#222;
@@ -13,8 +17,9 @@ body{
 
 .navbar {
     display: inline-block;
-    position: fixed;
-    width: 19%;
+    position: absolute;
+    width: 15%;
+    margin:5% 1.5%;
 }
 
 .navbar ul {
@@ -24,11 +29,26 @@ body{
 }
 
 .navbar li {
-    margin: 10%;
+    margin: 20px;
 }
 
 .navbar a {
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: lightblue;
+    text-align: center;
+    border: solid 2px black;
+    font-family: 'Lato';
+
+}
+
+.navbar a:hover {
+    background-color: black;
     color: white;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    transition-duration: 1s;
 }
 
 .body_align {
@@ -41,6 +61,8 @@ body{
     text-align:center;
     color:white;
     margin-bottom:2px;
+    font-family: 'Lato';
+
 }
 
 #intro{
@@ -82,6 +104,8 @@ body{
     height: 100%;
     width:  100%;
     z-index: -1;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,12 +128,3 @@ body{
     .body_align {
         width:100%;
     }
-    
-nav li.navbuttons:hover {
-    background-color: lightblue;
-    cursor: pointer;
-    color:black;
-}
-nav a:hover{
-    color:black;
-}
