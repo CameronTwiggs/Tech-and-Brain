@@ -1,98 +1,130 @@
-* {
-    border: black solid 1px;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+
+ *{
+     font-family: Arial, Helvetica, sans-serif;
+ }
 
 body,html {
-    height: 100%;
-    width: 100%;
+    width: 95%;
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
+
 body{
-    background-color:rgb(49,71,110);
+    background-color:#222;
 }
 
 .navbar {
     display: inline-block;
-    width: 19%;
+    position: absolute;
+    width: 15%;
+    margin:5% 1.5%;
 }
+
 .navbar ul {
     list-style: none;
-    padding: 0;
     text-align: center;
+    padding: 0;
 }
 
 .navbar li {
-    margin: 10%;
-
+    margin: 20px;
 }
 
 .navbar a {
-    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: lightblue;
+    text-align: center;
+    border: solid 2px black;
+    font-family: 'Lato';
+
 }
 
+.navbar a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    transition-duration: 1s;
+}
+
+.body_align {
+    float: right;
+    width:80%;
+}
+
+/* Positive and Negative stuff */
 #main{
     text-align:center;
     color:white;
     margin-bottom:2px;
+    font-family: 'Lato';
+
 }
+
 #intro{
     text-align: center;
     color:rgb(147,161,186);
     margin-bottom:2px;
 }
+
 #second{
     text-align:center;
     margin-bottom:0px;
     color:white;
 }
+
 #third{
     text-align:center;
     margin-bottom:2px;
     color:white;
 }
-.body_align{
-    float: right;
-    width:80%;
-}
-.box1{
-    background-color:rgb(49,71,110);
-    color:rgb(147,161,186);
-    width:200px;
-    border:3px solid black;
-    padding:50px;
-    display:block;
-    float:left;
-    margin-top:100px;
-    margin-left:200px;
-    text-align:center;
-    padding-top:10px;
-}
-.box2{
-    background-color:rgb(49,71,110);
-    color:rgb(147,161,186);
-    width:200px;
-    border:3px solid black;
-    padding:50px;
-    display:block;
-    float:right;
-    margin-top: 100px;
-    margin-right:200px;
-    text-align:center;
-    padding-top:10px;
-}
+
 .list_info{
     color:rgb(147,161,186)
 }
+
 .line{
     border:1px solid black;
 }
 
-header::after{
-    content:"";
-    display: table;
-    clear: both;
-  }
-  
-  
+#mainline{
+    border:1px solid black;
+}
+
+/* ---------------- */
+
+
+#particles-js {
+    position: fixed;
+    margin: auto;
+    height: 100%;
+    width:  100%;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgba(13, 13, 212, 0.829);
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar {
+      position: static;
+      width: 100%;
+    }
+    #particles-js {
+        height: 100%;
+        width:  100%;
+        margin: auto;
+        z-index: -1;
+    }
+
+    .body_align {
+        width:100%;
+    }
