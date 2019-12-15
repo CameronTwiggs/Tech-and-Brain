@@ -8,7 +8,6 @@ body,
 html {
     margin: auto;
 	width: 95%;
-	
 }
 
 body {
@@ -73,7 +72,7 @@ body {
 #second {
     text-align: center;
     color: white;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 
 }
 
@@ -127,3 +126,4 @@ body {
 	.body_align {
 		width: 100%;
 	}
+}
