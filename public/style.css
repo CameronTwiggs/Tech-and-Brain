@@ -1,6 +1,6 @@
-/* * {
+  /* * {
     border: black solid 1px;
-} */
+}  */
 
 body,html {
     height: 100%;
@@ -16,7 +16,10 @@ body{
 .navbar {
     display: inline-block;
     width: 19%;
+    margin-top:255px;
+    border:2px solid black;
 }
+
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -24,12 +27,20 @@ body{
 }
 
 .navbar li {
-    margin: 10%;
-
+    margin: 12%;
 }
 
 .navbar a {
-    color: white;
+    color: #7696cc;
+}
+.navbar a:hover{
+    color:black;
+}
+
+.navbar li.navbuttons:hover {
+    background-color: #566d96;
+    cursor: pointer;
+    color:black;;
 }
 
 #main{
@@ -37,21 +48,25 @@ body{
     color:white;
     margin-bottom:2px;
 }
+
 #intro{
     text-align: center;
     color:rgb(147,161,186);
     margin-bottom:2px;
 }
+
 #second{
     text-align:center;
     margin-bottom:0px;
     color:white;
 }
+
 #third{
     text-align:center;
     margin-bottom:2px;
     color:white;
 }
+
 .body_align{
     float: right;
     width:80%;
@@ -60,14 +75,8 @@ body{
 .list_info{
     color:rgb(147,161,186)
 }
+
 .line{
     border:1px solid black;
 }
-nav li.navbuttons:hover {
-    background-color: lightblue;
-    cursor: pointer;
-    color:black;
-}
-nav a:hover{
-    color:black;
-}
+
