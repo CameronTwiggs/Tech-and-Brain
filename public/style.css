@@ -44,8 +44,8 @@ body {
 	background-color: black;
 	color: white;
 	border-radius: 10px;
-	letter-spacing: 10px;
-	transition-duration: 1s;
+	letter-spacing: 5px;
+	transition-duration: .75s;
 }
 
 .body_align {
