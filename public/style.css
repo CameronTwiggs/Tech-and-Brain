@@ -1,35 +1,44 @@
 html#darkmode {
-    background-color: #2C3E50;
+    background-color: #BA55D3;
 }
+
 #sidenav {
-    position: absolute;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #8A2BE2;
+  overflow-x: hidden;
+  padding-top: 20px;
+  opacity: 85%;
 }
-ul {
-    list-style: none;
+
+#sidenav a {
+  padding: 6px 8px 6px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: wheat;
+  display: block;
 }
-li a {
-    color: white;
-    border: solid 2px white;
-    padding: 14px 16px; 
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 14px;
+#sidenav a.active {
+    background-color: wheat;
+    color: black;
 }
-#sidenav li {
-    margin: 20px;
+#mainsitestuff {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
 }
-li a:hover {
-    background-color: #57789A;
+
+#sidenav a:hover {
+    background-color: wheat;
     transition-duration: 0.5s;
-}
-a.active {
-    background-color: #4B6A89;
+    color: black;
 }
 #main-header h3 {
     text-align: center;
-    color: whitesmoke;
+    color: wheat;
     font-size: 30px;
 }
 #main-header h3:hover {
