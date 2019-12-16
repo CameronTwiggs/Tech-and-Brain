@@ -2,7 +2,7 @@ html#darkmode {
     background-color: #2C3E50;
 }
 #sidenav {
-    float: left;
+    position: absolute;
 }
 ul {
     list-style: none;
@@ -17,6 +17,9 @@ li a {
     font-size: 20px;
     margin-bottom: 14px;
 }
+#sidenav li {
+    margin: 20px;
+}
 li a:hover {
     background-color: #57789A;
     transition-duration: 0.5s;
@@ -28,4 +31,15 @@ a.active {
     text-align: center;
     color: whitesmoke;
     font-size: 30px;
+}
+#main-header h3:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #sidenav {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
 }
