@@ -1,4 +1,4 @@
-html#darkmode {
+html#purpley {
     background-color: #BA55D3;
 }
 
@@ -30,7 +30,8 @@ html#darkmode {
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
-
+img#errorgif {
+}
 #sidenav a:hover {
     background-color: wheat;
     transition-duration: 0.5s;
