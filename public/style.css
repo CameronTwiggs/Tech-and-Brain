@@ -1,3 +1,8 @@
+*{
+  border: black solid 1px;
+}
+
+
 html#darkmode {
     background-color: #BA55D3;
 }
