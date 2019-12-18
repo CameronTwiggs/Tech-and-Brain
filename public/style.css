@@ -1,10 +1,18 @@
-*{
-  border: black solid 1px;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+body,
+html {
+    margin: auto;
+	width: 95%;
+	
+}
 
-html#purpley {
-    background-color: #BA55D3;
+body {
+	background-color: #141BBA;
 }
 
 #sidenav {
@@ -13,7 +21,7 @@ html#purpley {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #8A2BE2;
+  background-color: rgb(93, 50, 212);
   overflow-x: hidden;
   padding-top: 20px;
   opacity: 85%;
@@ -30,19 +38,10 @@ html#purpley {
     background-color: wheat;
     color: black;
 }
-#mainsitestuff {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-#errormessage {
-  text-align: center;
-}
 
-#sidenav a:hover {
-    background-color: wheat;
-    transition-duration: 0.5s;
-    color: black;
+.body_align {
+	float: right;
+	width: 80%;
 }
 #main-header h3 {
     text-align: center;
@@ -59,4 +58,78 @@ html#purpley {
     position: relative;
     height: auto;
   }
+}
+
+/* Positive and Negative stuff */
+
+#main {
+	text-align: center;
+	color: white;
+	margin-bottom: 2px;
+	font-family: 'Lato';
+}
+
+#intro {
+	text-align: center;
+	color: rgb(147, 161, 186);
+	margin-bottom: 2px;
+}
+
+#second {
+    text-align: center;
+    color: white;
+	margin-bottom: 0px;
+
+}
+
+#third {
+	text-align: center;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.list_info {
+	color: rgb(147, 161, 186)
+}
+
+.line {
+	border: 1px solid black;
+}
+
+#mainline {
+	border: 1px solid black;
+}
+
+
+/* ---------------- */
+
+#particles-js {
+	position: fixed;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		display: flex;
+        flex-direction: column;
+        background-color: rgba(13, 13, 212, 0.829);
+	}
+	.navbar {
+		position: static;
+		width: 100%;
+	}
+	#particles-js {
+        margin: auto;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+	.body_align {
+		width: 100%;
+    }
 }
