@@ -83,7 +83,9 @@ body {
 }
 
 .list_info {
-	color: rgb(147, 161, 186)
+    color: rgb(147, 161, 186);
+    margin:3.5%;
+    text-align:center;
 }
 
 .line {
