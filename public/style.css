@@ -8,51 +8,57 @@ body,
 html {
     margin: auto;
 	width: 95%;
+	
 }
 
 body {
-	background-color: #222;
+	background-color: #141BBA;
 }
 
-.navbar {
-	position: absolute;
-	width: 15%;
-	margin: 16.5% 1.5%;
+#sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(93, 50, 212);
+  overflow-x: hidden;
+  padding-top: 20px;
+  opacity: 85%;
 }
 
-.navbar ul {
-	list-style: none;
-	text-align: center;
-	padding: 0;
+#sidenav a {
+  padding: 6px 8px 6px 30px;
+  text-decoration: none;
+  font-size: 25px;
+  color: wheat;
+  display: block;
 }
-
-.navbar li {
-	margin: 20px;
-}
-
-.navbar a {
-	display: block;
-	text-decoration: none;
-	color: lightblue;
-    text-align: center;
-    font-family: 'Lato';
-    border: solid 2px black;
-    padding: 16px 18px;
-}
-
-.navbar a:hover {
-	background-color: black;
-	color: white;
-	border-radius: 10px;
-	letter-spacing: 5px;
-	transition-duration: .75s;
+#sidenav a.active {
+    background-color: wheat;
+    color: black;
 }
 
 .body_align {
 	float: right;
 	width: 80%;
 }
+#main-header h3 {
+    text-align: center;
+    color: wheat;
+    font-size: 30px;
+}
+#main-header h3:hover {
+    cursor: pointer;
+}
 
+@media only screen and (max-width: 600px) {
+  #sidenav {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+}
 
 /* Positive and Negative stuff */
 
@@ -72,7 +78,7 @@ body {
 #second {
     text-align: center;
     color: white;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 
 }
 
@@ -83,9 +89,7 @@ body {
 }
 
 .list_info {
-    color: rgb(147, 161, 186);
-    margin:3.5%;
-    text-align:center;
+	color: rgb(147, 161, 186)
 }
 
 .line {
@@ -127,5 +131,5 @@ body {
 	}
 	.body_align {
 		width: 100%;
-	}
+    }
 }
