@@ -8,58 +8,59 @@ body,
 html {
     margin: auto;
 	width: 95%;
-	
 }
 
 body {
-	background-color: #141BBA;
+	background-color: #222;
 }
 
-#sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: rgb(93, 50, 212);
-  overflow-x: hidden;
-  padding-top: 20px;
-  opacity: 85%;
+.navbar {
+	position: absolute;
+	width: 15%;
+	margin: 5% 1.5%;
 }
 
-#sidenav a {
-  padding: 6px 8px 6px 30px;
-  text-decoration: none;
-  font-size: 25px;
-  color: wheat;
-  display: block;
+.navbar ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
 }
-#sidenav a.active {
-    background-color: wheat;
-    color: black;
+
+.navbar li {
+	margin: 20px;
+}
+<<<<<<< HEAD
+#main-header h3 {
+	text-align: center;
+	margin-left:15%;
+    color: wheat;
+    font-size: 30px;
+=======
+
+.navbar a {
+	display: block;
+	text-decoration: none;
+	color: lightblue;
+    text-align: center;
+    font-family: 'Lato';
+    border: solid 2px black;
+    padding: 14px 16px;
+>>>>>>> 4a020cf0717fd30a3090676c969152aae6691c4a
+}
+
+.navbar a:hover {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	letter-spacing: 10px;
+	transition-duration: 1s;
 }
 
 .body_align {
 	float: right;
 	width: 80%;
 }
-#main-header h3 {
-	text-align: center;
-	margin-left:15%;
-    color: wheat;
-    font-size: 30px;
-}
-#main-header h3:hover {
-    cursor: pointer;
-}
 
-@media only screen and (max-width: 600px) {
-  #sidenav {
-    width: 100%;
-    position: relative;
-    height: auto;
-  }
-}
 
 /* Positive and Negative stuff */
 
@@ -79,7 +80,7 @@ body {
 #second {
     text-align: center;
     color: white;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 
 }
 
@@ -132,5 +133,5 @@ body {
 	}
 	.body_align {
 		width: 100%;
-    }
+	}
 }
