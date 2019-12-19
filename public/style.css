@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body,
+html {
+    margin: auto;
+	width: 95%;
+}
+
+body {
+	background-color: #222;
+}
+
+.navbar {
+	position: absolute;
+	width: 15%;
+	margin: 5% 1.5%;
+}
+
+.navbar ul {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navbar li {
+	margin: 20px;
+}
+
+.navbar a {
+	display: block;
+	text-decoration: none;
+	color: lightblue;
+    text-align: center;
+    font-family: 'Lato';
+    border: solid 2px black;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	letter-spacing: 10px;
+	transition-duration: 1s;
+}
+
+.body_align {
+	float: right;
+	width: 80%;
+}
+
+
+/* Positive and Negative stuff */
+
+#main {
+	text-align: center;
+	color: white;
+	margin-bottom: 2px;
+	font-family: 'Lato';
+}
+
+#intro {
+	text-align: center;
+	color: rgb(147, 161, 186);
+	margin-bottom: 2px;
+}
+
+#second {
+    text-align: center;
+    color: white;
+	margin-bottom: 0;
+
+}
+
+#third {
+	text-align: center;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.list_info {
+	color: rgb(147, 161, 186)
+}
+
+.line {
+	border: 1px solid black;
+}
+
+#mainline {
+	border: 1px solid black;
+}
+
+
+/* ---------------- */
+
+#particles-js {
+	position: fixed;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		display: flex;
+        flex-direction: column;
+        background-color: rgba(13, 13, 212, 0.829);
+	}
+	.navbar {
+		position: static;
+		width: 100%;
+	}
+	#particles-js {
+        margin: auto;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+	.body_align {
+		width: 100%;
+	}
+}
