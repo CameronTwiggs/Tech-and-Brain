@@ -29,13 +29,6 @@ body {
 .navbar li {
 	margin: 20px;
 }
-<<<<<<< HEAD
-#main-header h3 {
-	text-align: center;
-	margin-left:15%;
-    color: wheat;
-    font-size: 30px;
-=======
 
 .navbar a {
 	display: block;
@@ -45,7 +38,6 @@ body {
     font-family: 'Lato';
     border: solid 2px black;
     padding: 14px 16px;
->>>>>>> 4a020cf0717fd30a3090676c969152aae6691c4a
 }
 
 .navbar a:hover {
