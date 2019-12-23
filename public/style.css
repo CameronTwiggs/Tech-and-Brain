@@ -92,12 +92,7 @@ body {
 
 .negposlist{
 	list-style: none;
-	margin-bottom: 15px;
-}
-
-.innerlist {
-	list-style: "- ";
-	padding-right: 10px;
+	margin-bottom: 5px;
 }
 
 
