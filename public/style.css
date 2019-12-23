@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
 * {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body, html {
@@ -9,7 +9,7 @@ body, html {
 }
 
 body {
-	background-color: #222;
+	background-color: #363b3e;
 }
 
 .navbar {
@@ -42,9 +42,9 @@ body {
 .navbar a:hover {
 	background-color: black;
 	color: white;
-	border-radius: 5px;
-	letter-spacing: 6px;
-	transition-duration: 1s;
+	border-radius: 10px;
+	letter-spacing: 5px;
+	transition-duration: .75s;
 }
 
 .body_align {
@@ -95,6 +95,11 @@ body {
 	margin-bottom: 15px;
 }
 
+.innerlist {
+	list-style: "- ";
+	padding-right: 10px;
+}
+
 
 /* ---------------- */
 
@@ -128,3 +133,4 @@ body {
 		width: 100%;
 	}
 }
+
