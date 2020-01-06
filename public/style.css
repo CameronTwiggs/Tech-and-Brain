@@ -137,5 +137,9 @@ body {
 	.negposlist {
 		font-size: 1.4em;
 	}
+
+	.list_info {
+		padding:0;
+	}
 }
 
